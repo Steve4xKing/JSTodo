@@ -1,0 +1,36 @@
+body{
+    background-color: darkslateblue;
+    color: white;
+}
+
+
+
+#mainList{
+   border: 5px solid white;
+}
+ul, h1, form {
+    text-align: center;
+    list-style: none;
+}
+
+span button{
+    visibility: hidden;
+    margin-left: 10px;
+}
+
+li:hover span button{
+    visibility: visible;
+}
+
+li{
+    padding: .5rem 0;
+}
+
+.completed{
+    color: rgb(236, 236, 236);
+    text-decoration: line-through;
+}
+
+button {
+    background-color: white;
+}
